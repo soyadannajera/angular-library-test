@@ -1,0 +1,122 @@
+    1  sudo apt-get update &&   sudo apt-get install -y dotnet-sdk-7.0
+    2  sudo apt-get update &&   sudo apt-get install -y aspnetcore-runtime-7.0
+    3  sudo apt-get install -y dotnet-runtime-7.0
+    4  dotnet --version
+    5  ls
+    6  cd Documents/
+    7  ls
+    8  mkdir Desarrollo
+    9  ls
+   10  donet 
+   11  dotnet
+   12  dotnet --info
+   13  dotnet new
+   14  dotnet new list
+   15  dotnet new webapi -n WebApiTest
+   16  ls
+   17  sudo rm -r WebApiTest/
+   18  ls
+   19  cd Desarrollo/
+   20  dotnet new webapi -n WebApiTest
+   21  cd WebApiTest/
+   22  dotnet run
+   23  code .
+   24  dotnet run
+   25  dotnet add NSwagSample.csproj package NSwag.AspNetCore
+   26  dotnet add WebApiTest.csproj package NSwag.AspNetCore
+   27  dotnet run
+   28  sudo apt update
+   29  sudo apt upgrade
+   30  sudo apt list --upgradable
+   31  sudo apt upgrade
+   32  sudo apt install gjs libgjs0g
+   33  sudo apt upgrade
+   34  sudo tar -xzf jetbrains-toolbox-2.0.2.16660.tar.gz -C /opt
+   35  cd /opt/
+   36  ./jetbrains-toolbox-2.0.2.16660/
+   37  ls
+   38  cd jetbrains-toolbox-2.0.2.16660/
+   39  ls
+   40  ./jetbrains-toolbox 
+   41  sudo ./jetbrains-toolbox 
+   42  ./jetbrains-toolbox 
+   43  sudo apt update
+   44  sudo apt install fuse
+   45  ./jetbrains-toolbox --appimage-extract
+   46  sudo ./jetbrains-toolbox --appimage-extract
+   47  ls
+   48  cd squashfs-root/
+   49  ls
+   50  cd squashfs-root/
+   51  sudo su
+   52  rm -r squashfs-root
+   53  cd /opt/
+   54  ls
+   55  cd jetbrains-toolbox-2.0.2.16660/
+   56  ls
+   57  rm -r squashfs-root
+   58  sudo su
+   59  sudo rm -r WebApplication1/
+   60  ls
+   61  dotnet run
+   62  ls
+   63  cd Controllers/
+   64  l
+   65  cat WeatherForecastController.cs 
+   66  cd ..
+   67  dotnet run
+   68  dotnet clean
+   69  dotnet run
+   70  dotnet run watch
+   71  dotnet watch run
+   72  code .
+   73  mkdir test
+   74  cd test/
+   75  code .
+   76  dotnet new webapi .
+   77  dotnet new webapi test
+   78  cd ..
+   79  dotnet new webapi --name test
+   80  cd test/
+   81  code .
+   82  sudo apt install nodejs
+   83  node -v
+   84  sudo apt install npm
+   85  sudo apt-get update -y
+   86  sudo apt-get install curl gnupg2 -y
+   87  apt-get purge nodejs &&rm -r /etc/apt/sources.list.d/nodesource.list
+   88  sudo apt-get purge nodejs &&rm -r /etc/apt/sources.list.d/nodesource.list
+   89  sudo apt-get purge nodejs && rm -r /etc/apt/sources.list.d/nodesource.list
+   90  curl -sL https://deb.nodesource.com/setup_14.x | bash -
+   91  curl -sL https://deb.nodesource.com/setup_18.x | bash -
+   92  node -v
+   93  sudo curl -sL https://deb.nodesource.com/setup_18.x | bash -
+   94  sudo curl -sL https://deb.nodesource.com/setup_17.x | bash -
+   95  sudo curl -sL https://deb.nodesource.com/setup_18.x | bash -
+   96  sudo snap install node --classic
+   97  node -v
+   98  node --version
+   99  npm --version
+  100  npm install -g @angular/cli
+  101  npm install -g npm@9.8.1
+  102  sudo npm install -g npm@9.8.1
+  103  sudo npm install -g @angular/cli
+  104  ng version
+  105  ls
+  106  cd Documents/
+  107  ls
+  108  cd Desarrollo/
+  109  ls
+  110  mkdir @angular
+  111  ls
+  112  cd @angular/
+  113  ng new silt-flow
+  114  git config --global user.email "admin@soyadannajera.pro"
+  115  git config --global user.name "soyadannajera"
+  116  ls
+  117  cd silt-flow/
+  118  ls
+  119  ng generate library silt-flow-lib
+  120  code .
+  121  ng serve
+  122  history > /home/soyadannajera/Documents/Desarrollo/@angular/silt-flow/commands-2.txt
